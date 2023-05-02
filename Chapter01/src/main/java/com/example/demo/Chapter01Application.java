@@ -3,8 +3,10 @@ package com.example.demo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan(basePackages = {"com.example.demo.controller", "board.controller"})
 public class Chapter01Application {
 
 	public static void main(String[] args) {
@@ -37,4 +39,11 @@ src/main/resources 의 application.properties 파일은 전체 프로젝트의 �
 
 application.properties에 설정한 프로퍼티 정보들은 실제 해당 Properties 객체의 Setter 메소드가 호출되어 의존성이 주입된다는 것이다.
 Ctrl 키를 누른 상태에서 server.port에 마우스를 대면 하이퍼링크로 변한다. 링크를 클릭하면 ServerProperties 클래스의 setPort() 메소드가 선택된다.
+
+사용자가 정의한 클래스들이 자동으로 빈으로 등록되기 때문에 
+스프링 부트에서는 패키지 이름을 주의해서 작성해야 한다.
+만약 루트 패키지인 "com.example" 가 아닌 다른 패키지에 클래스를 작성하면 
+스프링 컨테이너는 해당 클래스를 빈으로 등록하지 않는다. 
+다른 패키지의 클래스까지 스캔 대상에 포함 시키려면 
+메인 클래스에 @ComponentScan을 추가하여 패키지를 직접 지정하면 된다.
 */
