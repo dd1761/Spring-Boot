@@ -8,6 +8,8 @@ public class HelloGradleApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(HelloGradleApplication.class, args);
+		
+		System.out.println("Hello SpringBoot!!");
 	}
 
 }
