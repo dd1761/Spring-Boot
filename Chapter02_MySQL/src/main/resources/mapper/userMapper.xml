@@ -12,9 +12,9 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<!--같은 이름을 찾아서 매핑을 한다.-->
 	<select id="getUserList" parameterType="java.util.Map" resultType="user.bean.UserDTO">
 		<![CDATA[
-			select *
-			from usertable
-			limit #{startNum}, #{pageSize}
+			SELECT *
+			FROM usertable
+			LIMIT #{startNum}, #{endNum}
 		]]>
 	</select>
 	
