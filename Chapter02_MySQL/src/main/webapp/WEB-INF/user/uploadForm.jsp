@@ -8,7 +8,7 @@
 </head>
 <body>
 <!-- 1. 단순 submit -->
-<form method="post" enctype="multipart/form-data" action="/chapter06_SpringWebMaven/user/upload">
+<form method="post" enctype="multipart/form-data" action="/user/upload">
 	<table border="1">
 		<tr>
 			<td>상품명</td>
@@ -42,7 +42,7 @@
 				<!-- 업로드 버튼을 누르기 전에 카메라 아이콘을 통해서 선택한 이미지가 맞는지 확인하기 위해서 이미지를 보이게 한다. -->
 				<img id="showImg" width="70" height="70">
 			
-				<img id="camera" src="../image/camera.png" width="50" height="50" alt="카메라">
+				<img id="camera" src="/image/camera.png" width="50" height="50" alt="카메라">
 				<input type="file" id="img" name="img[]" multiple="multiple" style="visibility: hidden;">
 			</td>
 		</tr>

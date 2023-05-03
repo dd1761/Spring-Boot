@@ -20,8 +20,8 @@
 </head>
 <body>
 <h3>
-	<a href="/chapter06_SpringWebMaven/">
-			<img src="../image/daram1.jpg" width="50" height="50">
+	<a href="/">
+			<img src="/image/daram1.jpg" width="50" height="50">
 	</a> 목록
 </h3>
 
@@ -39,10 +39,10 @@
 <div id="userPagingDiv" style="width: 455px; text-align: center; margin-top: 3px;">아무 글자</div>
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-3.6.4.min.js"></script>
-<script type="text/javascript" src="../js/list.js"></script>
+<script type="text/javascript" src="/js/list.js"></script>
 <script type="text/javascript">
 function userPaging(pg){
-	location.href="/chapter06_SpringWebMaven/user/list?pg=" + pg;
+	location.href="/user/list?pg=" + pg;
 }
 </script>
 </body>

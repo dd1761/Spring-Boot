@@ -3,7 +3,7 @@ $('#uploadBtn').click(function(){
 	
 	$.ajax({
 		type: 'post',
-		url: '/chapter06_SpringWebMaven/user/upload',
+		url: '/user/upload',
 		enctype: 'multipart/form-data',
 		processData: false,
 		contentType: false,
@@ -22,7 +22,7 @@ $(function(){
 	var reader = new FileReader();
 	$.ajax({
 		type: 'post',
-		url: '/chapter06_SpringWebMaven/user/getUploadForm_AJax_list',
+		url: '/user/getUploadForm_AJax_list',
 		success: function(data){
 			alert('gd');
 			$.each(data, function(index, items){

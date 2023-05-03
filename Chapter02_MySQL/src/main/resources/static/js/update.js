@@ -9,7 +9,7 @@ $(function(){
 		else {
 			$.ajax({
 				type: 'post',
-				url: '/chapter06_SpringWebMaven/user/getUser',
+				url: '/user/getUser',
 				data: 'id=' + $('#searchId').val(),
 				//dataType: 'json', //아이디가 있으면 UserDTO가 JSON으로 바뀌어서 들어온다.
 				//아이디가 없으면 JSON으로 오지 못한다.
@@ -65,11 +65,11 @@ $('#updateBtn').click(function(){
 	else {
 		$.ajax({
 			type: 'post',
-			url: '/chapter06_SpringWebMaven/user/update',
+			url: '/user/update',
 			data: $('#updateForm').serialize(),
 			success: function(data){
 				alert('업데이트 되었습니다.');
-				location.href='/chapter06_SpringWebMaven/user/list';
+				location.href='/user/list';
 			},
 			error: function(err){
 				console.log(err);

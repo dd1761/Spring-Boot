@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import user.bean.UserDTO;
 import user.service.UserService;
 
-@RestController
+@Controller
 @RequestMapping(value="/user")
 public class UserController {
 	@Autowired //설정된 Bean들 중에서 UserService를 찾아서 연결해라 UserServiceImpl이 UserService랑 연결되어 있어 UserServiceImpl을 연결한다.

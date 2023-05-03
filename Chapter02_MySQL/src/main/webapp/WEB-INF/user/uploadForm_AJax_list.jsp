@@ -8,8 +8,8 @@
 </head>
 <body>
 <h3>
-	<a href="/chapter06_SpringWebMaven/">
-			<img src="../image/daram1.jpg" width="50" height="50">
+	<a href="/">
+			<img src="/image/daram1.jpg" width="50" height="50">
 	</a> 목록
 </h3>
 <table id="userImageListTable" border="1" frame="hsides" rules="rows" cellspacing="0" cellpadding="5">

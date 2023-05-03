@@ -16,11 +16,11 @@ $('#writeBtn').click(function(){
 	else {
 		$.ajax({
 			type: "post",
-			url: '/chapter06_SpringWebMaven/user/write',
+			url: '/user/write',
 			data: $('#writeForm').serialize(),
 			success: function(){
 				alert('회원가입을 축하합니다.');
-				location.href='/chapter06_SpringWebMaven/user/list';
+				location.href='/user/list';
 			},
 			error: function(err){
 				console.log(err);
@@ -37,7 +37,7 @@ $('#id').focusout(function(){
 	else {
 		$.ajax({
 			type: 'post',
-			url: '/chapter06_SpringWebMaven/user/isExistId',
+			url: '/user/isExistId',
 			data: 'id=' + $('#id').val(),
 			dataType: 'text', // 서버로부터 받는 데이터 형, text, json, xml
 			success: function(data){

@@ -9,13 +9,14 @@
 <body>
 <h3>*** 메인화면 ***</h3>
 <h4>
-	<p><a href="/user/writeForm">입력</a></p>
-	<p><a href="/user/list?pg=1">출력</a></p>
-	<p><a href="/user/updateForm">수정</a></p>
-	<p><a href="/user/deleteForm">삭제</a></p>
-	<p><a href="/user/uploadForm">업로드(DB로 안감)</a></p>
-	<p><a href="/user/uploadForm_AJax">업로드_AJax</a></p>
-	<p><a href="/user/uploadForm_AJax_list">이미지 출력</a></p>
+	 <a href="/user/writeForm">입력</a><br> 
+	 <a href="/user/list?pg=1">출력</a><br> 
+	 <a href="/user/updateForm">수정</a><br> 
+	 <a href="/user/deleteForm">삭제</a><br> 
+	 <br>
+	 <a href="/user/uploadForm">업로드(DB로 안감)</a><br> 
+	 <a href="/user/uploadForm_AJax">업로드_AJax</a><br> 
+	 <a href="/user/uploadForm_AJax_list">이미지 출력</a><br> 
 </h4>
 </body>
 </html>

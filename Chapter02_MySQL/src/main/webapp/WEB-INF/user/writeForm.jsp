@@ -14,7 +14,7 @@
 </style>
 </head>
 <body>
-<h3><a href="/chapter06_SpringWebMaven/"><img src="../image/daram1.jpg" width="50" height="50"></a>회원가입</h3>
+<h3><a href="/"><img src="/image/daram1.jpg" width="50" height="50"></a>회원가입</h3>
 <form id="writeForm">
 		<p>
 		<label>이름:</label>
@@ -39,6 +39,6 @@
 </form>
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-3.6.4.min.js"></script>
-<script type="text/javascript" src="/static/js/write.js"></script>
+<script type="text/javascript" src="/js/write.js"></script>
 </body>
 </html>

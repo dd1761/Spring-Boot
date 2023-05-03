@@ -8,8 +8,8 @@
 </head>
 <body>
 <h3>
-	<a href="/chapter06_SpringWebMaven/">
-		<img src="../image/daram1.jpg" width="50" height="50">
+	<a href="/">
+		<img src="/image/daram1.jpg" width="50" height="50">
 	</a>회원정보수정
 </h3>
 <p>
