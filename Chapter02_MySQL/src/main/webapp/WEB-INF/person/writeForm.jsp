@@ -7,41 +7,33 @@
 <title>Insert title here</title>
 </head>
 <body>
-<!-- 2. AJax 통신 -->
-<form id="uploadForm">
-	<table border="1">
+<form>
+	<table border="1" cellpadding="5" cellspacing="0">
 		<tr>
-			<td>상품명</td>
-			<td><input type="text" name="imageName" size="45"></td>
+			<th>이름</th>
+			<td><input type="text" name="name" id="name"></td>
 		</tr>
-		
 		<tr>
-			<td colspan="2">
-				<textarea name="imageContent" rows="15" cols="50"></textarea>
-			</td>
+			<th>나이</th>
+			<td><input type="text" name="age" id="age"></td>
 		</tr>
-		
 		<tr>
 			<td colspan="2">
-				
-				<!-- 업로드 버튼을 누르기 전에 카메라 아이콘을 통해서 선택한 이미지가 맞는지 확인하기 위해서 이미지를 보이게 한다. -->
-				<img id="showImg" width="70" height="70">
-			
-				<img id="camera" src="/image/camera.png" width="50" height="50" alt="카메라">
-				<input type="file" id="img" name="img[]" multiple="multiple" style="visibility: hidden;">
+				<img id="showImg" width="100" height="100">
+				<img id="camera" src="/img/camera.png" width="30" height="30" alt="카메라">
+				<input type="file" name="img" id="img" multiple="multiple" style="visibility: hidden;">
 			</td>
 		</tr>
-		
 		<tr>
 			<td colspan="2" align="center">
-				<input type="button" id="uploadBtn" value="이미지 등록">
+				<input type="button" value="등록" id="writeBtn">
+				<input type="reset" value="취소">
 			</td>
 		</tr>
 	</table>
 </form>
-
 <script type="text/javascript" src="http://code.jquery.com/jquery-3.6.4.min.js"></script>
-<script type="text/javascript" src="../js/upload.js"></script>
+<script type="text/javascript" src="/js/write.js"></script>
 <script type="text/javascript">
 $('#camera').click(function(){
 	$('#img').trigger('click');
