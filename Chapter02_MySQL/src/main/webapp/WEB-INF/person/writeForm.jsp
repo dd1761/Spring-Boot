@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form>
+<form id="writeForm">
 	<table border="1" cellpadding="5" cellspacing="0">
 		<tr>
 			<th>이름</th>

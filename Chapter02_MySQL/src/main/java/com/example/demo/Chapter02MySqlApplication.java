@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"person.controller"})
+@ComponentScan(basePackages = {"person.controller", "person.bean"})
 public class Chapter02MySqlApplication {
 
 	public static void main(String[] args) {
