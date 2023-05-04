@@ -1,2 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=Chapter02_MySQL/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;person.service{PersonService.java[PersonService" modifiers="513" timestamp="1683170699634"/>
+    <typeInfo handle="=Chapter02_MySQL/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;person.dao{PersonDAO.java[PersonDAO" modifiers="513" timestamp="1683170892121"/>
+</typeInfoHistroy>

@@ -7,7 +7,8 @@ import lombok.Data;
 @Component
 @Data
 public class PersonDTO {
+	private int seq;
 	private String name;
 	private int age;
-	private String uploadFile;
+	private String photo;
 }

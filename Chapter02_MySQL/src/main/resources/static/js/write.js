@@ -10,6 +10,7 @@ $(function(){
 			contentType: false,
 			success: function(){
 				alert('가입 완료!');
+				location.href='/person/list';
 			},
 			error: function(err){
 				console.log(err);
