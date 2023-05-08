@@ -24,4 +24,16 @@ public class Chapter03JpaApplication {
 @Entity
 JPA에서는 엔티티는 테이블에 대응하는 하나의 클래스라고 생각하면 된다
 spring-boot-starter-data-jpa 의존성을 추가하고 @Entity 어노테이션을 붙이면 테이블과 자바 클래스가 매핑이 된다.
+
+
+Spring Boot + MySQL + JPA
+
+스프링 데이터 JPA를 사용하는 경우는 별도의 구현 클래스를 만들지 않고 인터페이스만 정의함으로써 기능을 사용할 수 있다. 스프링 부트가 내부적으로 인터페이스에 대한 구현 객체를 자동으로 생성해준다. 또한 JPA를 이용해서 데이터베이스를 연동하기 위해서 사용했었던 EntityManagerFactory, 
+EntityManager, EntityTransaction 같은 객체도 필요 없다.
+이 모든 객체들의 생성과 활용이 스프링 데이터 JPA 에서는 내부적으로 처리되기 때문이다.
+
+
 */
+
+
+

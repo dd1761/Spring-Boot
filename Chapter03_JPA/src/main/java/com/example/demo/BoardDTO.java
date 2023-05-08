@@ -6,16 +6,28 @@ import org.hibernate.annotations.CreationTimestamp;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.SequenceGenerator;
 import jakarta.persistence.Table;
 import lombok.Data;
 
 @Entity //이 테이블은 mySQL의 board와 연결이 되어있음을 알려줌
 @Table(name = "board")
 @Data
+@SequenceGenerator(name = "BOARD_SEQ_GENERATOR",
+				   sequenceName = "BOARD_SEQ",
+				   initialValue = 1,
+				   allocationSize = 1)
 public class BoardDTO {
 	
-	@Id //이 객체가 primary Key값임을 알려줌
+	@Id
+	@Column(name="seq")
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "BOARD_SEQ_GENERATOR")
+	private int seq;
+	
+	//@Id //이 객체가 primary Key값임을 알려줌
 	@Column(name="id", nullable = false, unique = true, length = 30) 
 	private String id;
 	// id varchar(30) not null unique
