@@ -18,6 +18,8 @@ public class BoardServiceImpl implements BoardService {
 		boardDTO.setSubject("홍길동전");
 		boardDTO.setContent("불쌍한 사람들을 도와주는 의적!!");
 		
+		boardDAO.save(boardDTO);
+		
 		boardDTO = new BoardDTO();
 		boardDTO.setId("doori"); //primary key로 중복 불가
 		boardDTO.setName("김수정");
