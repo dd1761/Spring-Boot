@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import user.bean.UserDTO;
@@ -42,7 +43,18 @@ public class UserController {
 	@PostMapping(value="/getUserList")
 	@ResponseBody
 	public List<UserDTO> getUserList(){
+		//List<UserDTO> list = userService.getUserList();
+		//return list;
 		
 		return userService.getUserList();
+	}
+	
+	@PostMapping(value="/isExistId")
+	@ResponseBody
+	public String isExistId(@RequestParam String id) {
+		
+		String result = userService.isExistId(id);
+		
+		return result;
 	}
 }

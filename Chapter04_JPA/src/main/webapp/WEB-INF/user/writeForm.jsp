@@ -5,6 +5,13 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style type="text/css">
+#writeForm div{
+	color: red;
+	font-size: 8pt;
+	font-weight: bold;
+}
+</style>
 </head>
 <body>
 <form id="writeForm">
@@ -15,7 +22,11 @@
 		</tr>
 		<tr>
 			<th>아이디</th>
-			<td><input type="text" name="id"></td>
+			<td>
+				<input type="text" name="id" id="id">
+				<div id="idDiv"></div>
+			</td>
+			
 		</tr>
 		<tr>
 			<th>비밀번호</th>

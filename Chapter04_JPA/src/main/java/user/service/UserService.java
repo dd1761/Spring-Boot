@@ -9,5 +9,7 @@ public interface UserService {
 	public void write(UserDTO userDTO);
 
 	public List<UserDTO> getUserList();
+
+	public String isExistId(String id);
 	
 }

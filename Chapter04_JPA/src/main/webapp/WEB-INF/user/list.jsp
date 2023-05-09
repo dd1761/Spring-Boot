@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<table id="listTable" border="1">
+<table id="userListTable" border="1">
 	<tr>
 		<th width="150">이름</th>
 		<th width="150">아이디</th>
