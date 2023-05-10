@@ -1,6 +1,7 @@
 package user.controller;
 
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -56,5 +57,22 @@ public class UserController {
 		String result = userService.isExistId(id);
 		
 		return result;
+	}
+	
+	@PostMapping(value="/search")
+	@ResponseBody
+	/*public List<UserDTO> search(@RequestParam String searchOption,
+								@RequestParam String keyword){*/
+	public List<UserDTO> search(@RequestParam Map<String, String> map){
+		
+		List<UserDTO> list = userService.search(map);
+		return list;
+		
+		//return userService.search(map);
+	}
+	
+	@GetMapping(value="/updateForm")
+	public String updateForm() {
+		return "/user/updateForm";
 	}
 }
