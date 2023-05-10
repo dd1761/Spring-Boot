@@ -58,4 +58,16 @@ public class UserServiceImpl implements UserService {
 		
 	}
 
+	@Override
+	public Optional<UserDTO> getUser(String id) {
+		// findById(id) = select * from usertable where id=#{id}
+		Optional<UserDTO> userDTO = userDAO.findById(id); //아이디가 없으면 Optional.empty 출력된다
+		System.out.println(userDTO);
+		
+		
+		return userDTO;
+	}
+
+
+
 }
