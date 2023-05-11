@@ -73,5 +73,3 @@ $('#searchBtn').click(function(){
 
 
 
-
-

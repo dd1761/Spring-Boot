@@ -18,6 +18,10 @@ public interface UserService {
 
 	public Optional<UserDTO> getUser(String id);
 
+	public void update(UserDTO userDTO);
+
+	public void delete(String id);
+
 	
 	
 }

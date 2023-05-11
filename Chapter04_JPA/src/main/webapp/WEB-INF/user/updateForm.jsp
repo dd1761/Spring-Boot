@@ -23,7 +23,7 @@
 		<tr>
 			<th>아이디</th>
 			<td>
-				<input type="text" name="id" id="id">
+				<input type="text" name="id" id="id" readonly>
 				<div id="idDiv"></div>
 			</td>
 			
@@ -35,7 +35,7 @@
 		<tr>
 			<td colspan="2" align="center">
 				<input type="button" value="수정" id="updateBtn">
-				<input type="reset" value="취소">
+				<input type="reset" value="취소" id="resetBtn">
 			</td>
 		</tr>
 	</table>
