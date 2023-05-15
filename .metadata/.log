@@ -6,68 +6,13 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
 Framework arguments:  -product org.springframework.boot.ide.branding.sts4
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
 
-This is a continuation of log file C:\Spring Boot\workspace\Spring-Boot\.metadata\.bak_0.log
-Created Time: 2023-05-15 16:28:55.032
+This is a continuation of log file C:\Spring Boot\workspace\Spring-Boot\.metadata\.bak_1.log
+Created Time: 2023-05-15 17:33:44.840
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:55.032
-!MESSAGE AST couldn't be created during the validation of index.js
-
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:56.868
-!MESSAGE null
-!STACK 0
-java.lang.IllegalArgumentException
-	at org.eclipse.wst.jsdt.core.dom.ASTNode.setStructuralProperty(ASTNode.java:1521)
-	at org.eclipse.wst.jsdt.core.dom.ClosureCompilerASTConverter.safeSetProperty(ClosureCompilerASTConverter.java:1690)
-	at org.eclipse.wst.jsdt.core.dom.ClosureCompilerASTConverter.processBinaryExpression(ClosureCompilerASTConverter.java:514)
-	at org.eclipse.wst.jsdt.core.dom.ClosureCompilerASTConverter.process(ClosureCompilerASTConverter.java:187)
-	at org.eclipse.wst.jsdt.core.dom.ClosureCompilerASTConverter.transform(ClosureCompilerASTConverter.java:128)
-	at org.eclipse.wst.jsdt.core.dom.ClosureCompilerASTConverter.transformAndSetProperty(ClosureCompilerASTConverter.java:1680)
-	at org.eclipse.wst.jsdt.core.dom.ClosureCompilerASTConverter.processBinaryExpression(ClosureCompilerASTConverter.java:510)
-	at org.eclipse.wst.jsdt.core.dom.ClosureCompilerASTConverter.process(ClosureCompilerASTConverter.java:187)
-	at org.eclipse.wst.jsdt.core.dom.ClosureCompilerASTConverter.transform(ClosureCompilerASTConverter.java:128)
-	at org.eclipse.wst.jsdt.core.dom.ClosureCompilerASTConverter.transformAndSetProperty(ClosureCompilerASTConverter.java:1680)
-	at org.eclipse.wst.jsdt.core.dom.ClosureCompilerASTConverter.processExpressionStatement(ClosureCompilerASTConverter.java:718)
-	at org.eclipse.wst.jsdt.core.dom.ClosureCompilerASTConverter.process(ClosureCompilerASTConverter.java:219)
-	at org.eclipse.wst.jsdt.core.dom.ClosureCompilerASTConverter.transform(ClosureCompilerASTConverter.java:128)
-	at org.eclipse.wst.jsdt.core.dom.ClosureCompilerASTConverter.processAstRoot(ClosureCompilerASTConverter.java:493)
-	at org.eclipse.wst.jsdt.core.dom.ClosureCompilerASTConverter.process(ClosureCompilerASTConverter.java:263)
-	at org.eclipse.wst.jsdt.core.dom.ClosureCompilerASTConverter.transform(ClosureCompilerASTConverter.java:128)
-	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:120)
-	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
-	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
-	at org.eclipse.wst.jsdt.internal.core.validation.JavaScriptValidator.validate(JavaScriptValidator.java:63)
-	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
-	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
-	at org.eclipse.core.internal.resources.Resource.lambda$1(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
-	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:56.869
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:44.840
 !MESSAGE AST couldn't be created during the validation of constructor-super.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:56.948
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:45.029
 !MESSAGE null
 !STACK 0
 java.lang.IllegalArgumentException
@@ -114,35 +59,30 @@ java.lang.IllegalArgumentException
 	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
 	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
-	at org.eclipse.core.internal.resources.Resource.lambda$1(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
 	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:56.949
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:45.032
 !MESSAGE AST couldn't be created during the validation of no-dupe-keys.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.023
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:45.189
 !MESSAGE null
 !STACK 0
 java.lang.IllegalArgumentException
@@ -169,35 +109,30 @@ java.lang.IllegalArgumentException
 	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
 	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
-	at org.eclipse.core.internal.resources.Resource.lambda$1(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
 	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.024
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:45.190
 !MESSAGE AST couldn't be created during the validation of no-this-before-super.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.033
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:45.216
 !MESSAGE null
 !STACK 0
 java.lang.IllegalArgumentException
@@ -224,35 +159,30 @@ java.lang.IllegalArgumentException
 	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
 	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
-	at org.eclipse.core.internal.resources.Resource.lambda$1(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
 	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.033
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:45.217
 !MESSAGE AST couldn't be created during the validation of no-unreachable.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.097
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:45.317
 !MESSAGE null
 !STACK 0
 java.lang.IllegalArgumentException
@@ -299,35 +229,30 @@ java.lang.IllegalArgumentException
 	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
 	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
-	at org.eclipse.core.internal.resources.Resource.lambda$1(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
 	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.098
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:45.319
 !MESSAGE AST couldn't be created during the validation of sort-keys.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.272
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:45.684
 !MESSAGE null
 !STACK 0
 java.lang.IllegalArgumentException
@@ -364,107 +289,102 @@ java.lang.IllegalArgumentException
 	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
 	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
-	at org.eclipse.core.internal.resources.Resource.lambda$1(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
 	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.273
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:45.685
 !MESSAGE AST couldn't be created during the validation of typeImportStyle.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.400
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:46.036
 !MESSAGE null
 !STACK 0
 java.lang.ClassCastException
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.401
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:46.036
 !MESSAGE AST couldn't be created during the validation of IdentifierMock.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.402
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:46.040
 !MESSAGE null
 !STACK 0
 java.lang.ClassCastException
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.402
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:46.040
 !MESSAGE AST couldn't be created during the validation of JSXAttributeMock.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.404
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:46.043
 !MESSAGE null
 !STACK 0
 java.lang.ClassCastException
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.404
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:46.044
 !MESSAGE AST couldn't be created during the validation of JSXElementMock.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.405
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:46.046
 !MESSAGE null
 !STACK 0
 java.lang.ClassCastException
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.405
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:46.047
 !MESSAGE AST couldn't be created during the validation of JSXExpressionContainerMock.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.407
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:46.048
 !MESSAGE null
 !STACK 0
 java.lang.ClassCastException
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.407
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:46.049
 !MESSAGE AST couldn't be created during the validation of JSXSpreadAttributeMock.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.408
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:46.051
 !MESSAGE null
 !STACK 0
 java.lang.ClassCastException
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.409
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:46.052
 !MESSAGE AST couldn't be created during the validation of JSXTextMock.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.410
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:46.055
 !MESSAGE null
 !STACK 0
 java.lang.ClassCastException
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.410
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:46.056
 !MESSAGE AST couldn't be created during the validation of LiteralMock.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.412
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:46.061
 !MESSAGE null
 !STACK 0
 java.lang.ClassCastException
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.412
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:46.062
 !MESSAGE AST couldn't be created during the validation of genInteractives.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.414
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:46.067
 !MESSAGE null
 !STACK 0
 java.lang.ClassCastException
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.415
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:46.068
 !MESSAGE AST couldn't be created during the validation of ruleOptionsMapperFactory.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.816
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:46.845
 !MESSAGE class org.eclipse.wst.jsdt.core.dom.EmptyStatement is not assignable to class org.eclipse.wst.jsdt.core.dom.SingleVariableDeclaration
 !STACK 0
 java.lang.ClassCastException: class org.eclipse.wst.jsdt.core.dom.EmptyStatement is not assignable to class org.eclipse.wst.jsdt.core.dom.SingleVariableDeclaration
@@ -485,38 +405,33 @@ java.lang.ClassCastException: class org.eclipse.wst.jsdt.core.dom.EmptyStatement
 	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
 	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
-	at org.eclipse.core.internal.resources.Resource.lambda$1(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
 	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:57.816
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:46.846
 !MESSAGE AST couldn't be created during the validation of index.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:59.612
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:50.807
 !MESSAGE null
 !STACK 0
 java.lang.IllegalArgumentException
@@ -549,34 +464,29 @@ java.lang.IllegalArgumentException
 	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
 	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
-	at org.eclipse.core.internal.resources.Resource.lambda$1(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
 	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:28:59.613
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:50.808
 !MESSAGE AST couldn't be created during the validation of babel.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:29:01.873
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:53.822
 !MESSAGE class org.eclipse.wst.jsdt.core.dom.EmptyStatement is not assignable to class org.eclipse.wst.jsdt.core.dom.SingleVariableDeclaration
 !STACK 0
 java.lang.ClassCastException: class org.eclipse.wst.jsdt.core.dom.EmptyStatement is not assignable to class org.eclipse.wst.jsdt.core.dom.SingleVariableDeclaration
@@ -597,125 +507,49 @@ java.lang.ClassCastException: class org.eclipse.wst.jsdt.core.dom.EmptyStatement
 	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
 	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
-	at org.eclipse.core.internal.resources.Resource.lambda$1(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
 	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:29:01.874
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:53.823
 !MESSAGE AST couldn't be created during the validation of index.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:29:04.447
-!MESSAGE Cannot invoke "com.google.javascript.jscomp.parsing.parser.Token.asLiteral()" because the return value of "com.google.javascript.jscomp.parsing.parser.Parser.eat(com.google.javascript.jscomp.parsing.parser.TokenType)" is null
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:58.066
+!MESSAGE null
 !STACK 0
-java.lang.NullPointerException: Cannot invoke "com.google.javascript.jscomp.parsing.parser.Token.asLiteral()" because the return value of "com.google.javascript.jscomp.parsing.parser.Parser.eat(com.google.javascript.jscomp.parsing.parser.TokenType)" is null
-	at com.google.javascript.jscomp.parsing.parser.Parser.parseExportDeclaration(Parser.java:534)
-	at com.google.javascript.jscomp.parsing.parser.Parser.parseScriptElement(Parser.java:310)
-	at com.google.javascript.jscomp.parsing.parser.Parser.parseGlobalSourceElements(Parser.java:271)
-	at com.google.javascript.jscomp.parsing.parser.Parser.parseProgram(Parser.java:256)
-	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:116)
-	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
-	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
-	at org.eclipse.wst.jsdt.internal.core.validation.JavaScriptValidator.validate(JavaScriptValidator.java:63)
-	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
-	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
-	at org.eclipse.core.internal.resources.Resource.lambda$1(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
-	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+java.lang.NullPointerException
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:29:04.447
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:58.067
 !MESSAGE AST couldn't be created during the validation of rollup.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:29:04.497
-!MESSAGE Cannot invoke "com.google.javascript.jscomp.parsing.parser.Token.asLiteral()" because the return value of "com.google.javascript.jscomp.parsing.parser.Parser.eat(com.google.javascript.jscomp.parsing.parser.TokenType)" is null
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:58.127
+!MESSAGE null
 !STACK 0
-java.lang.NullPointerException: Cannot invoke "com.google.javascript.jscomp.parsing.parser.Token.asLiteral()" because the return value of "com.google.javascript.jscomp.parsing.parser.Parser.eat(com.google.javascript.jscomp.parsing.parser.TokenType)" is null
-	at com.google.javascript.jscomp.parsing.parser.Parser.parseExportDeclaration(Parser.java:534)
-	at com.google.javascript.jscomp.parsing.parser.Parser.parseScriptElement(Parser.java:310)
-	at com.google.javascript.jscomp.parsing.parser.Parser.parseGlobalSourceElements(Parser.java:271)
-	at com.google.javascript.jscomp.parsing.parser.Parser.parseProgram(Parser.java:256)
-	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:116)
-	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
-	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
-	at org.eclipse.wst.jsdt.internal.core.validation.JavaScriptValidator.validate(JavaScriptValidator.java:63)
-	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
-	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
-	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
-	at org.eclipse.core.internal.resources.Resource.lambda$1(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
-	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+java.lang.NullPointerException
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:29:04.498
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:58.128
 !MESSAGE AST couldn't be created during the validation of rollup.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:29:05.045
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:59.056
 !MESSAGE null
 !STACK 0
 java.lang.IllegalArgumentException
@@ -738,36 +572,31 @@ java.lang.IllegalArgumentException
 	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
 	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
-	at org.eclipse.core.internal.resources.Resource.lambda$1(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
 	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:29:05.045
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:59.057
 !MESSAGE AST couldn't be created during the validation of TypeScriptTransformer.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:29:05.149
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:59.173
 !MESSAGE null
 !STACK 0
 java.lang.IllegalArgumentException
@@ -790,35 +619,30 @@ java.lang.IllegalArgumentException
 	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
 	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
-	at org.eclipse.core.internal.resources.Resource.lambda$1(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
 	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:29:05.150
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:33:59.174
 !MESSAGE AST couldn't be created during the validation of TypeScriptTransformer.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:29:12.868
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:34:18.568
 !MESSAGE null
 !STACK 0
 java.lang.IllegalArgumentException
@@ -844,35 +668,30 @@ java.lang.IllegalArgumentException
 	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
 	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
-	at org.eclipse.core.internal.resources.Resource.lambda$1(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
 	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:29:12.868
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:34:18.569
 !MESSAGE AST couldn't be created during the validation of DefaultStatsFactoryPlugin.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:29:13.110
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:34:18.901
 !MESSAGE class org.eclipse.wst.jsdt.core.dom.EmptyStatement is not assignable to class org.eclipse.wst.jsdt.core.dom.SingleVariableDeclaration
 !STACK 0
 java.lang.ClassCastException: class org.eclipse.wst.jsdt.core.dom.EmptyStatement is not assignable to class org.eclipse.wst.jsdt.core.dom.SingleVariableDeclaration
@@ -893,38 +712,33 @@ java.lang.ClassCastException: class org.eclipse.wst.jsdt.core.dom.EmptyStatement
 	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
 	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
-	at org.eclipse.core.internal.resources.Resource.lambda$1(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
 	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:29:13.110
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:34:18.902
 !MESSAGE AST couldn't be created during the validation of index.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:29:13.325
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:34:19.387
 !MESSAGE class org.eclipse.wst.jsdt.core.dom.EmptyStatement is not assignable to class org.eclipse.wst.jsdt.core.dom.SingleVariableDeclaration
 !STACK 0
 java.lang.ClassCastException: class org.eclipse.wst.jsdt.core.dom.EmptyStatement is not assignable to class org.eclipse.wst.jsdt.core.dom.SingleVariableDeclaration
@@ -945,38 +759,33 @@ java.lang.ClassCastException: class org.eclipse.wst.jsdt.core.dom.EmptyStatement
 	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
 	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
-	at org.eclipse.core.internal.resources.Resource.lambda$1(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
 	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:29:13.326
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:34:19.387
 !MESSAGE AST couldn't be created during the validation of index.js
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:29:13.634
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:34:20.243
 !MESSAGE class org.eclipse.wst.jsdt.core.dom.EmptyStatement is not assignable to class org.eclipse.wst.jsdt.core.dom.SingleVariableDeclaration
 !STACK 0
 java.lang.ClassCastException: class org.eclipse.wst.jsdt.core.dom.EmptyStatement is not assignable to class org.eclipse.wst.jsdt.core.dom.SingleVariableDeclaration
@@ -997,546 +806,28 @@ java.lang.ClassCastException: class org.eclipse.wst.jsdt.core.dom.EmptyStatement
 	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
 	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
-	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:783)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
 	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
-	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
-	at org.eclipse.core.internal.resources.Resource.lambda$1(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
-	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
 	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 
-!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 16:29:13.635
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2023-05-15 17:34:20.244
 !MESSAGE AST couldn't be created during the validation of index.js
-
-!ENTRY org.eclipse.lsp4e 1 0 2023-05-15 16:29:26.050
-!MESSAGE [Info]	ESLint server running in node v18.13.0
-
-!ENTRY org.eclipse.lsp4e 2 0 2023-05-15 16:29:26.133
-!MESSAGE [Warning]	Using Typescript version (user-setting) 4.9.5 from path "C:\Spring Boot\sts-4.18.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.0.3.202303081618\node_modules\typescript\lib\tsserver.js"
-
-!ENTRY org.eclipse.lsp4e 1 0 2023-05-15 16:29:26.136
-!MESSAGE [Info]	Typescript Server version info: {version=4.9.5, source=user-setting}
-
-!ENTRY org.eclipse.lsp4e 1 0 2023-05-15 16:29:43.217
-!MESSAGE [Info]	ESLint server running in node v18.13.0
-
-!ENTRY org.eclipse.lsp4e 2 0 2023-05-15 16:29:43.407
-!MESSAGE [Warning]	Using Typescript version (user-setting) 4.9.5 from path "C:\Spring Boot\sts-4.18.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.0.3.202303081618\node_modules\typescript\lib\tsserver.js"
-
-!ENTRY org.eclipse.lsp4e 1 0 2023-05-15 16:29:43.493
-!MESSAGE [Info]	Typescript Server version info: {version=4.9.5, source=user-setting}
-
-!ENTRY org.eclipse.egit.core 4 0 2023-05-15 16:34:17.891
-!MESSAGE Git team provider configuration has gone missing.
-!STACK 0
-java.nio.file.NoSuchFileException: C:\Spring Boot\workspace\Spring-Boot\.metadata\.plugins\org.eclipse.core.resources\.projects\Chapter05_JPA_React\org.eclipse.egit.core\GitProjectData.properties
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
-	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
-	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
-	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
-	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
-	at org.eclipse.egit.core.internal.indexdiff.GitResourceDeltaVisitor.visit(GitResourceDeltaVisitor.java:116)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
-	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.resourceChanged(IndexDiffCacheEntry.java:701)
-	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
-	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
-	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
-	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:584)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:263)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
-	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
-	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-
-!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2023-05-15 16:34:19.331
-!MESSAGE Internal Error
-!STACK 1
-org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
-	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:784)
-	at org.eclipse.core.internal.resources.Project.delete(Project.java:326)
-	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
-	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
-	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
-	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
-	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Could not delete '/Chapter05_JPA_React/src'.
-org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
-	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:367)
-	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:364)
-	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:399)
-	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:856)
-	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1806)
-	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:771)
-	at org.eclipse.core.internal.resources.Project.delete(Project.java:326)
-	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
-	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
-	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
-	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
-	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Problems encountered while deleting files.
-Contains: Could not delete: C:\Spring Boot\workspace\Spring-Boot\Chapter05_JPA_React\src\main.
-java.nio.file.FileSystemException: C:\Spring Boot\workspace\Spring-Boot\Chapter05_JPA_React\src\main: 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
-	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
-	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
-	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:222)
-	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:250)
-	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:139)
-	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:66)
-	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:156)
-	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:119)
-	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:364)
-	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:364)
-	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:399)
-	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:856)
-	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1806)
-	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:771)
-	at org.eclipse.core.internal.resources.Project.delete(Project.java:326)
-	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
-	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
-	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
-	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
-	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Could not delete: C:\Spring Boot\workspace\Spring-Boot\Chapter05_JPA_React\src.
-Contains: Could not delete 'C:\Spring Boot\workspace\Spring-Boot\Chapter05_JPA_React'.
-!SUBENTRY 1 org.eclipse.core.resources 4 273 2023-05-15 16:34:19.331
-!MESSAGE Problems encountered while deleting resources.
-!SUBENTRY 2 org.eclipse.core.resources 4 273 2023-05-15 16:34:19.331
-!MESSAGE Could not delete '/Chapter05_JPA_React/src'.
-!STACK 1
-org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
-	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:367)
-	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:364)
-	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:399)
-	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:856)
-	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1806)
-	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:771)
-	at org.eclipse.core.internal.resources.Project.delete(Project.java:326)
-	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
-	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
-	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
-	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
-	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Problems encountered while deleting files.
-Contains: Could not delete: C:\Spring Boot\workspace\Spring-Boot\Chapter05_JPA_React\src\main.
-java.nio.file.FileSystemException: C:\Spring Boot\workspace\Spring-Boot\Chapter05_JPA_React\src\main: 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
-	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
-	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
-	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:222)
-	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:250)
-	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:139)
-	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:66)
-	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:156)
-	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:119)
-	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:364)
-	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:364)
-	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:399)
-	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:856)
-	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1806)
-	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:771)
-	at org.eclipse.core.internal.resources.Project.delete(Project.java:326)
-	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
-	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
-	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
-	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
-	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Could not delete: C:\Spring Boot\workspace\Spring-Boot\Chapter05_JPA_React\src.
-!SUBENTRY 3 org.eclipse.core.resources 4 273 2023-05-15 16:34:19.332
-!MESSAGE Problems encountered while deleting resources.
-!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2023-05-15 16:34:19.332
-!MESSAGE Problems encountered while deleting files.
-!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2023-05-15 16:34:19.332
-!MESSAGE Could not delete: C:\Spring Boot\workspace\Spring-Boot\Chapter05_JPA_React\src\main.
-!STACK 0
-java.nio.file.FileSystemException: C:\Spring Boot\workspace\Spring-Boot\Chapter05_JPA_React\src\main: 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
-	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
-	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
-	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:222)
-	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:250)
-	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:139)
-	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:66)
-	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:156)
-	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:119)
-	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:364)
-	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:364)
-	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:399)
-	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:856)
-	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1806)
-	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:771)
-	at org.eclipse.core.internal.resources.Project.delete(Project.java:326)
-	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
-	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
-	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
-	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
-	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2023-05-15 16:34:19.332
-!MESSAGE Could not delete: C:\Spring Boot\workspace\Spring-Boot\Chapter05_JPA_React\src.
-!SUBENTRY 2 org.eclipse.core.resources 4 273 2023-05-15 16:34:19.332
-!MESSAGE Could not delete 'C:\Spring Boot\workspace\Spring-Boot\Chapter05_JPA_React'.
-
-!ENTRY org.eclipse.egit.core 4 0 2023-05-15 16:34:22.495
-!MESSAGE Git team provider configuration has gone missing.
-!STACK 0
-java.nio.file.NoSuchFileException: C:\Spring Boot\workspace\Spring-Boot\.metadata\.plugins\org.eclipse.core.resources\.projects\Chapter05_JPA_React\org.eclipse.egit.core\GitProjectData.properties
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
-	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
-	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
-	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
-	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
-	at org.eclipse.egit.core.internal.indexdiff.GitResourceDeltaVisitor.visit(GitResourceDeltaVisitor.java:116)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
-	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.resourceChanged(IndexDiffCacheEntry.java:701)
-	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
-	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
-	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
-	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
-	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:546)
-	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:394)
-	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:259)
-	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
-	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:227)
-	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:148)
-	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
-	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:273)
-	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:199)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1020)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:247)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:392)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:395)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:506)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:454)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:536)
-	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:196)
-	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:289)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.egit.core 4 0 2023-05-15 16:34:24.010
-!MESSAGE Git team provider configuration has gone missing.
-!STACK 0
-java.nio.file.NoSuchFileException: C:\Spring Boot\workspace\Spring-Boot\.metadata\.plugins\org.eclipse.core.resources\.projects\Chapter05_JPA_React\org.eclipse.egit.core\GitProjectData.properties
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
-	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
-	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
-	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
-	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
-	at org.eclipse.egit.core.internal.indexdiff.GitResourceDeltaVisitor.visit(GitResourceDeltaVisitor.java:116)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
-	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.resourceChanged(IndexDiffCacheEntry.java:701)
-	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
-	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
-	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
-	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
-	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:546)
-	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:394)
-	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:259)
-	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
-	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:227)
-	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:148)
-	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
-	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:273)
-	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:199)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1020)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:247)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:392)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:395)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:506)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:454)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:536)
-	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:196)
-	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:289)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.egit.core 4 0 2023-05-15 16:34:25.529
-!MESSAGE Git team provider configuration has gone missing.
-!STACK 0
-java.nio.file.NoSuchFileException: C:\Spring Boot\workspace\Spring-Boot\.metadata\.plugins\org.eclipse.core.resources\.projects\Chapter05_JPA_React\org.eclipse.egit.core\GitProjectData.properties
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
-	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
-	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
-	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
-	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
-	at org.eclipse.egit.core.internal.indexdiff.GitResourceDeltaVisitor.visit(GitResourceDeltaVisitor.java:116)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
-	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.resourceChanged(IndexDiffCacheEntry.java:701)
-	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
-	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
-	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
-	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
-	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:546)
-	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:394)
-	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:259)
-	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
-	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:227)
-	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:148)
-	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
-	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:273)
-	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:199)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1020)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:247)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:392)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:395)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:506)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:454)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:536)
-	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:196)
-	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:289)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.egit.core 4 0 2023-05-15 16:34:27.043
-!MESSAGE Git team provider configuration has gone missing.
-!STACK 0
-java.nio.file.NoSuchFileException: C:\Spring Boot\workspace\Spring-Boot\.metadata\.plugins\org.eclipse.core.resources\.projects\Chapter05_JPA_React\org.eclipse.egit.core\GitProjectData.properties
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
-	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
-	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
-	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
-	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
-	at org.eclipse.egit.core.internal.indexdiff.GitResourceDeltaVisitor.visit(GitResourceDeltaVisitor.java:116)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
-	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.resourceChanged(IndexDiffCacheEntry.java:701)
-	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
-	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
-	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
-	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
-	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:546)
-	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:394)
-	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:259)
-	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
-	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
-	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
-	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:227)
-	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:148)
-	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:65)
-	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:273)
-	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:199)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1020)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:247)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:392)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:395)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:506)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:454)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:536)
-	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:196)
-	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:289)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.egit.core 4 0 2023-05-15 16:34:27.996
-!MESSAGE Git team provider configuration has gone missing.
-!STACK 0
-java.nio.file.NoSuchFileException: C:\Spring Boot\workspace\Spring-Boot\.metadata\.plugins\org.eclipse.core.resources\.projects\Chapter05_JPA_React\org.eclipse.egit.core\GitProjectData.properties
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
-	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
-	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
-	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
-	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
-	at org.eclipse.egit.core.internal.indexdiff.GitResourceDeltaVisitor.visit(GitResourceDeltaVisitor.java:116)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
-	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
-	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.resourceChanged(IndexDiffCacheEntry.java:701)
-	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:307)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:297)
-	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:160)
-	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:388)
-	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1514)
-	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:210)
-	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:289)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-05-15 16:35:15.354
-!MESSAGE Failed to find a compatible VM for environment id 'JavaSE-19', falling back to workspace default
-
-!ENTRY org.eclipse.m2e.logback.appender 4 0 2023-05-15 16:35:16.758
-!MESSAGE Failed to find a compatible VM for environment id 'JavaSE-19', falling back to workspace default
