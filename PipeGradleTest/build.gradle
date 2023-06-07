@@ -1,8 +1,8 @@
 plugins {
-	id 'java'
-	id 'org.springframework.boot' version '3.1.0'
-	id 'io.spring.dependency-management' version '1.1.0'
-	id 'com.github.node-gradle.node' version '4.0.0'
+   id 'java'
+   id 'org.springframework.boot' version '3.1.0'
+   id 'io.spring.dependency-management' version '1.1.0'
+   id 'com.github.node-gradle.node' version '4.0.0'
 }
 
 group = 'com.example'
@@ -10,25 +10,25 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
 configurations {
-	compileOnly {
-		extendsFrom annotationProcessor
-	}
+   compileOnly {
+      extendsFrom annotationProcessor
+   }
 }
 
 repositories {
-	mavenCentral()
+   mavenCentral()
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-web'
-	compileOnly 'org.projectlombok:lombok'
-	developmentOnly 'org.springframework.boot:spring-boot-devtools'
-	annotationProcessor 'org.projectlombok:lombok'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+   implementation 'org.springframework.boot:spring-boot-starter-web'
+   compileOnly 'org.projectlombok:lombok'
+   developmentOnly 'org.springframework.boot:spring-boot-devtools'
+   annotationProcessor 'org.projectlombok:lombok'
+   testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
 tasks.named('test') {
-	useJUnitPlatform()
+   useJUnitPlatform()
 }
 
 task appNpmInstall(type: NpmTask) {
@@ -39,43 +39,47 @@ task appNpmInstall(type: NpmTask) {
 }
 
 //React build 설정
-def reactApp = "$projectDir/src/main/front"
-
+def reactAppDir = "$projectDir/src/main/front"
 //processResources는 Gradle의 기본적인 플러그인인 java 플러그인에서 제공하는 Task이다.
 //이 Task는 프로젝트의 리소스를 처리하고 결과를 해당 프로젝트의 클래스패스에 추가하는 역할을 한다.
 processResources{
-	dependsOn "copyReactFile"
+   dependsOn "copyReactFile"  //processResources 를 처리하기전에  dependsOn을 먼저 처리해라. 
+
 }
 
-task copyReactFile(type: Copy) {
-	dependsOn "buildReact"
-	from "$reactApp/build"
-	into "$projectDir/src/main/resources/static"
+task copyReactFile(type:Copy){
+    dependsOn "buildReact"   //copyReactFile 처리하기전에 buildReact를 먼저처리.
+    from "$reactAppDir/build"
+     into "$projectDir/src/main/resources/static"
+
 }
 
-task buildReact(type: Exec) {
-	dependsOn "installReact"
-	inputs.dir "$reactAppDir"
-	// $reactAppDir는 buildReact Task의 입력으로 지정되는 디렉토리를 의미한다.
-   //$reactAppDir 디렉토리의 변경 사항을 감지하고, 변경이 있을 경우에만 Task가 실행되도록 할 수 있다.
-   // 이를 통해 변경 사항이 없는 경우에는 Task가 다시 실행되지 않아 빌드 성능을 향상시킬 수 있다.
-	group = BasePlugin.BUILD_GROUP
-	if (System.getProperty('os.name').toLowerCase(Locale.ROOT).contains('windows')) {   
-		commandLine "npm.cmd", "run-script", "build"
-	} else {   
-		commandLine "npm", "run-script", "build"
-	}
+task buildReact(type:Exec){
+   dependsOn "installReact"
+   workingDir "$reactAppDir"
+   // $reactAppDir는 buildReact Task의 입력으로 지정되는 디렉토리를 의미한다.
+    //$reactAppDir 디렉토리의 변경 사항을 감지하고, 변경이 있을 경우에만 Task가 실행되도록 할 수 있다.
+    // 이를 통해 변경 사항이 없는 경우에는 Task가 다시 실행되지 않아 빌드 성능을 향상시킬 수 있다.
+    inputs.dir "$reactAppDir"
+    group = BasePlugin.BUILD_GROUP
+   if (System.getProperty('os.name').toLowerCase(Locale.ROOT).contains('windows')) {   
+      commandLine "npm.cmd", "run-script", "build"
+   } else {   
+      commandLine "npm", "run-script", "build" //windows가 설치되어있다면 설치안함.
+
+   }
 }
 
-task installReact(type: Exec) {
-	workingDir "$reactAppDir"
-	inputs.dir "$reactAppDir"
-	group = BasePlugin.BUILD_GROUP
-	if (System.getProperty('os.name').toLowerCase(Locale.ROOT).contains('windows')) {
-		commandLine "npm.cmd", "audit", "fix"
-		commandLine "npm.cmd", "install"
-	} else {
-		commandLine "npm", "audit", "fix"
-		commandLine "npm", "install"
-	}
+task installReact(type:Exec){
+   workingDir "$reactAppDir"
+   inputs.dir "$reactAppDir"
+   group = BasePlugin.BUILD_GROUP
+   if (System.getProperty('os.name').toLowerCase(Locale.ROOT).contains('windows')) {
+      commandLine "npm.cmd", "audit", "fix"
+      commandLine "npm.cmd", "install"
+   } else {
+      commandLine "npm", "audit", "fix"
+      commandLine "npm", "install"
+   }
+
 }
