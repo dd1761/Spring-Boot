@@ -26,7 +26,7 @@ const App = () => {
     <div>
       <header>
         <img src={img1} style = {{width:'200px' }}/>
-        <h1>스프링 부트로 /list부터 받은 데이터 출력</h1>
+        <h1>스프링 부트로 /hello부터 받은 데이터 출력</h1>
         <ul style = {{listStyle: 'none'}}>
           {
          message.map((item,index) => <li key = {index}>
