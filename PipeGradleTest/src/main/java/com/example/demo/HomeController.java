@@ -13,6 +13,11 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin
 @RestController
 public class HomeController {
+	
+//	@GetMapping("/")
+//	public String index() {
+//		return "Hello React";
+//	}
 
 	@GetMapping("/list")
 	public List<Map<String, String>> home() {
