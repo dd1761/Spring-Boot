@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from "react";
-import img1 from './1.jpg';
+import img1 from './mokoko.webp'
 import './App.css';
 
 function App() {
