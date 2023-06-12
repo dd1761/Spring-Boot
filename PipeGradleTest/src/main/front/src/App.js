@@ -30,7 +30,7 @@ function App() {
         <div className="App">
             <header>  
                 <img src={ img1 } style={{ width: '200px' }} alt=''/>   
-                <h1>Test-06-12-14:40</h1>          
+                <h1>Test-06-12-14:42</h1>          
                 <ul style={{ listStyle: 'none' }}>
                   {
                     message.map((text, index) => <li key={ index }>
