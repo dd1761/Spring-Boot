@@ -8,6 +8,7 @@ class Chapter01ApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.out.print("오늘의 커밋");
 	}
 
 }
